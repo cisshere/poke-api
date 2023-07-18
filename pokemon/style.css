@@ -1,0 +1,81 @@
+* {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background-color: rgb(245, 235, 220);
+    color: #581616;
+}
+
+img {
+    height: 15rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.ingresarNumero {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+input {
+    padding: 0.313rem 0.563rem;
+    border-radius: 0.5rem;
+    width: 12rem;
+}
+
+.btn-agregar {
+    margin: 0rem 2rem;
+    padding: 0.438rem 0.313rem;
+    background-color: #8d5353;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    cursor: pointer;
+}
+
+/************** pizza **********/
+
+.contenedor-pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-pizza {
+    width: 17rem;
+    height: 16rem;
+    border-radius: 1.875rem;
+}
+
+.precio-pizza {
+    margin: 0.188rem;
+    font-weight: bold;
+}
+
+.ingredientes {
+    margin: 0.313rem;
+}
+
+.msj-error{
+    border-color: red;
+    color: red;
+}
